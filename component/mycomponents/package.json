@@ -1,0 +1,29 @@
+{
+  "name": "mycomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^0.22.0",
+    "file-loader": "^0.8.4",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssshrink": "^0.1.5",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-collector": "^1.0.2",
+    "gulp-uglify": "^1.4.2",
+    "gulp-webpack": "^1.5.0",
+    "jquery": "^2.1.4",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,50 @@
+@charset 'utf-8';
+.c-time {
+  position: relative;
+  cursor: default;
+  .clickable {
+    cursor: pointer;
+  }
+  .c-calendar {
+    position: absolute;
+    z-index: 4000;
+    padding: 5px 8px;
+    width: 100%;
+    min-width: 280px;
+    max-width: 380px;
+    background-color: #eee;
+    display: none;
+
+    &.show {
+      display: block;
+    }
+
+    table {
+      width: 100%;
+      text-align: center;
+      border-spacing: 0;
+      border-collapse: collapse;
+      &.c-calendar-header {
+        line-height: 36px;
+        td:first-child,
+        td:last-child {
+          width: 18%
+        }
+      }
+      &.c-calendar-main {
+        &.month {
+          line-height: 56px;
+          td {
+            width: 33.333%;
+          }
+        }
+        &.day {
+          line-height: 36px;
+        }
+        .timeval.selected {
+          background-color: #899;
+        }
+      }
+    }
+  }
+}

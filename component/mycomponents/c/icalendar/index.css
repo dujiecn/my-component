@@ -1,0 +1,19 @@
+.u-icalendar-wrapper * {-webkit-box-sizing: border-box;font-size: 14px; -webkit-user-select:none;user-select: none;cursor: default;color:rgb(89,75,71);font-weight: bold;}
+/*.u-icalendar-wrapper {width:300px;height: 230px;padding: 8px;margin: 200px auto;}*/
+.u-icalendar-wrapper {/*border: 1px solid #eee;*/border-radius: 5px;overflow: hidden;box-shadow: 0 0 9px 0px;}
+
+.u-icalendar-wrapper .header {position: relative;background: -webkit-linear-gradient(top,rgb(255,255,255),rgb(231,231,231));}
+.u-icalendar-wrapper .header td {position: relative;width: 33.3%;}
+.u-icalendar-wrapper .header td:first-child{background: url(./arrow.png) center no-repeat;background-size:16px;}
+.u-icalendar-wrapper .header td:nth-child(2) {font-size: 16px; transition:all .6s ease;-webkit-transition:all .6s ease;opacity: 1;}
+.u-icalendar-wrapper .header td:last-child{border-radius: 0 5px 0 0;background: url(./arrow.png) center no-repeat;background-size:16px;-webkit-transform:rotate(180deg);}
+.u-icalendar-wrapper .header .hide {visibility: hidden;}
+
+.u-icalendar-wrapper table {position: absolute;top:0;left:0;opacity: 1; border-spacing: 0px;border-collapse: collapse;width:99.9%;height: 100%;text-align: center;vertical-align: middle;
+    transition:all .4s ease;transform-origin:0 0;-webkit-transition:all .4s ease;-webkit-transform-origin:0 0;}
+
+.u-icalendar-wrapper .content {position: relative;overflow: hidden;}
+.u-icalendar-wrapper .content table td {border: 1px solid rgb(196,195,195);position: relative;background: -webkit-linear-gradient(top,rgb(255,255,255),rgb(231,231,231));}
+.u-icalendar-wrapper .content table td.now{background:-webkit-linear-gradient(top,rgb(252, 167, 2),rgb(217,96, 0));color: #fff;}
+.u-icalendar-wrapper .content table td>span {text-align: left;display: block;width: 50%;margin: auto;}
+
